@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="3" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="date" name="Creation Date" read-only="false">8/9/2021/12:00:01 +02:00</element>
+    <element form="multiline" name="Comments" read-only="false">Sampling Strategies Comparison
+
+Experiment with: 
+- simple random sampling
+- stratified random sampling (Partitioning node)
+- undersampling (Equal Size Sampling node) 
+- oversampling (Bootstrap Sampling node and SMOTE node)
+
+The workflow draws on the kaggle Stroke Prediction Dataset that represents 5110 rows with 11 clinical features such as body mass index, smoking status, age, gender, and glucose level. The task is to predict stroke (yes/no), which is a classification problem. We chose to build a Random Forest model.
+
+TAGS: Sampling,Imbalance,SMOTE</element>
+    <element form="text" name="Last Edited" read-only="true">2024-02-16 15:31:21 +0100</element>
+</KNIMEMetaInfo>

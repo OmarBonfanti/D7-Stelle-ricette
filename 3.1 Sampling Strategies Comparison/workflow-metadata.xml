@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <created>2021-10-08T12:00:01.000+02:00</created>
+    <last-modified>2024-02-16T15:31:21.960+01:00</last-modified>
+    <description>Sampling Strategies Comparison
+
+Experiment with: 
+- simple random sampling
+- stratified random sampling (Partitioning node)
+- undersampling (Equal Size Sampling node) 
+- oversampling (Bootstrap Sampling node and SMOTE node)
+
+The workflow draws on the kaggle Stroke Prediction Dataset that represents 5110 rows with 11 clinical features such as body mass index, smoking status, age, gender, and glucose level. The task is to predict stroke (yes/no), which is a classification problem. We chose to build a Random Forest model.</description>
+    <tags>
+        <tag>Sampling</tag>
+        <tag>Imbalance</tag>
+        <tag>SMOTE</tag>
+    </tags>
+</workflow-metadata>
