@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="Title mode_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="Title mode" type="xstring" value="Column"/>
+        <config key="TitleCol_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="TitleCol" type="xstring" value="recipe_name"/>
+        <config key="TextCol_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="TextCol" type="xstring" value="text"/>
+        <config key="DocumentSource_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="DocumentSource" type="xstring" value=""/>
+        <config key="UseSourceColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="UseSourceColumn" type="xboolean" value="false"/>
+        <config key="SourceColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="SourceColumn" type="xstring" value="recipe_name"/>
+        <config key="DocumentCategory_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="DocumentCategory" type="xstring" value=""/>
+        <config key="UseCategoryColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="UseCategoryColumn" type="xboolean" value="true"/>
+        <config key="CategoryColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="CategoryColumn" type="xstring" value="stars"/>
+        <config key="useAuthorsColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="useAuthorsColumn" type="xboolean" value="false"/>
+        <config key="AuthorsCol_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="AuthorsCol" type="xstring" value="text"/>
+        <config key="AuthorSplitChar_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="AuthorSplitChar" type="xstring" value=", "/>
+        <config key="AuthorFirstName_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="AuthorFirstName" type="xstring" value="-"/>
+        <config key="AuthorLastName_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="AuthorLastName" type="xstring" value="-"/>
+        <config key="DocumentType_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="DocumentType" type="xstring" value="UNKNOWN"/>
+        <config key="PublicationDate_Internals">
+            <entry key="SettingsModelID" type="xstring" value="settingsmodel.date&amp;time"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="PublicationDate" type="xstring" value="2024-02-20"/>
+        <config key="UsePubDateColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="UsePubDateColumn" type="xboolean" value="false"/>
+        <config key="PubdateCol_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="PubdateCol" type="xstring" isnull="true" value=""/>
+        <config key="Document column_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="Document column" type="xstring" value="Document"/>
+        <config key="Number of threads_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="Number of threads" type="xint" value="8"/>
+        <config key="Word Tokenizer_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="Word Tokenizer" type="xstring" value="OpenNLP English WordTokenizer"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Node can't be executed - Node &quot;Strings to Document&quot; not available from extension &quot;KNIME Textprocessing&quot; (provided by &quot;KNIME AG, Zurich, Switzerland&quot;; plugin &quot;org.knime.ext.textprocessing&quot; is not installed)%%00010Status: DataLoadError: MISSING Strings to Document 4:2%%00010  Status: DataLoadError: Unable to load port content for node &quot;MISSING Strings to Document&quot;: Data cell implementation 'org.knime.ext.textprocessing.data.filestore.DocumentBufferedFileStoreCell' not found.%%00010  Status: DataLoadError: State has changed from EXECUTED to IDLE"/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.transformation.stringstodocument.StringsToDocumentNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="Strings to Document"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.textprocessing"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.2.0.v202310301556"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Textprocessing"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.textprocessing.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.2.0.v202311031340"/>
+    <entry key="factory-id-uniquifier" type="xstring" isnull="true" value=""/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="MISSING Strings to Document"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

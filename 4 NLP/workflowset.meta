@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="4" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="text" name="Author" read-only="false">kathrinmelcher</element>
+    <element form="date" name="Creation Date" read-only="false">20/5/2018/12:00:01 +02:00</element>
+    <element form="multiline" name="Comments" read-only="false">Sentiment Analysis
+
+This workflow shows how to train a simple neural network for text classification, in this case sentiment analysis. The used network learns a 128 dimensional word embedding followed by an LSTM.
+
+This example is adapted from the following Keras example script:
+https://github.com/keras-team/keras/blob/master/examples/imdb_lstm.py
+
+In order to run the example, please make sure you have the following KNIME extensions installed:
+
+* KNIME Deep Learning - Keras Integration (Labs)
+
+You also need a local Python installation that includes Keras. Please refer to https://www.knime.com/deeplearning#keras for installation recommendations and further information.
+
+TAGS: deep learning,keras,text classification,classification,lstm,embedding,text analysis,sequence analysis,sentiment analysis,sequence classification,neural network,text processing,NLP,Natural Language Processing</element>
+    <element form="text" name="Last Edited" read-only="true">2020-01-10 10:50:25 -0600</element>
+</KNIMEMetaInfo>
